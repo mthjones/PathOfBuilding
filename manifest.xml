@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <PoBVersion>
-	<Version number="2.7.0" />
+	<Version number="2.8.0" />
 	<Source part="default" url="https://raw.githubusercontent.com/PathOfBuildingCommunity/PathOfBuilding/{branch}/" />
 	<Source part="program" url="https://raw.githubusercontent.com/PathOfBuildingCommunity/PathOfBuilding/{branch}/src/" />
 	<Source part="tree" url="https://raw.githubusercontent.com/PathOfBuildingCommunity/PathOfBuilding/{branch}/src/" />
@@ -10,7 +10,7 @@
 	<File name="UpdateCheck.lua" part="program" sha1="79bbb54aeb654d6c8335b6053724b21286a8a671" />
 	<File name="UpdateApply.lua" part="program" sha1="fd03dbd5b750848ec7d9d1a8bcf8aff8b9ff6e89" />
 	<File name="GameVersions.lua" part="program" sha1="3362494128727aa7196cd9b867910e07f4643ea3" />
-	<File name="changelog.txt" part="default" sha1="6b1f9a1ae61f8098546f3a1d35199eac6272568d" />
+	<File name="changelog.txt" part="default" sha1="33cc9ee5ad60fe15428d3647a81276beadfe2639" />
 	<File name="Path{space}of{space}Building.exe" part="runtime" platform="win32" sha1="7486cf4f0289df72ccce93a69a4198ad069f79b9" />
 	<File name="lua51.dll" part="runtime" platform="win32" sha1="7a973d3c0b5121e6aad0dcb9323be5b432fc63e7" />
 	<File name="SimpleGraphic.dll" part="runtime" platform="win32" sha1="66cb4131f93c1e7b29564e0ee02560181a970e9c" />
