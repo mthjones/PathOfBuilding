@@ -1,3 +1,50 @@
+VERSION[2.6.0][2021/08/09]
+
+* Update images for socketed Cluster Jewels (LocalIdentity)
+
+* Fix Unleash crash with minion skills (LocalIdentity)
+* Fix exporter for explosive concoction (Wires77)
+* Update slipstream tooltip (Wires77)
+
+* Release 2.7.1 (github-actions[bot])
+* Fix MonsterVarieties spec (PJacek)
+* Add space between similar stat groups. (Nightblade)
+* Add Leadership's Price Unique Amulet (Torchery)
+
+## [v2.7.0](https://github.com/PathOfBuildingCommunity/PathOfBuilding/tree/v2.7.0) (2021/08/09)
+
+[Full Changelog](https://github.com/PathOfBuildingCommunity/PathOfBuilding/compare/v2.6.0...v2.7.0)
+
+* Add support for new base type implicits (LocalIdentity)
+
+* Fix Combat Jewel parsing (LocalIdentity)
+* Fix error when Main Skill is not-minion but Minion is in FullDPS (Nostrademous)
+* Update Ailment threshold values (LocalIdentity)
+* Update Oskarm's chaos resist (Ydoum)
+* Sanitize default gem properties when loading a build (PJacek)
+
+* Release 2.7.0 (Wires77)
+* Release 2.7.0 (github-actions[bot])
+* Fix Lifetap not changing mana cost (Wires77)
+* Stop keystones from being edited with timeless jewels (Wires77)
+* A cold damage over time stat to modparser (Lexy)
+* Fix Bomb Specialist AoE mod (Nostrademous)
+* Add radius to Explosive Concoction (Wires77)
+* Add new base types to rare template, modify existing rare templates (a3person)
+* Add sorting by Ward attribute (TiagoGoddard)
+* Added full support for Eye To Eye cluster Notable (Nostrademous)
+* Modify Elusive effect (Lexy)
+* Don't set max inspiration charges for minions (Lexy)
+* Add Usurper's Penance (pundm)
+* Fix Explosive Concoction not working with off hand weapons (Lexy)
+* Describe installer creation process (ppoelzl)
+* Release 2.6.0 (Wires77)
+* Release 2.6.0 (github-actions[bot])
+* Fix Manabond not  being affected by reduced mana cost nodes (Wires77)
+* Fix Doryani's Prototype not applying to minions (Wires77)
+
+
+
 VERSION[2.8.0][2021/08/09]
 
 * Add Leadership's Price unique amulet (Torchery)

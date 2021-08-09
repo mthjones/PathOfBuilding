@@ -1,5 +1,67 @@
 # Changelog
 
+## [2.7.0](https://github.com/PathOfBuildingCommunity/PathOfBuilding/tree/2.7.0) (2021/08/09)
+
+[Full Changelog](https://github.com/PathOfBuildingCommunity/PathOfBuilding/compare/v2.7.0...2.7.0)
+
+**Implemented enhancements:**
+
+- Update images for socketed Cluster Jewels [\#3116](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3116) ([LocalIdentity](https://github.com/LocalIdentity))
+
+**Fixed bugs:**
+
+- Fix Unleash crash with minion skills [\#3127](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3127) ([LocalIdentity](https://github.com/LocalIdentity))
+- Fix exporter for explosive concoction [\#3122](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3122) ([Wires77](https://github.com/Wires77))
+- Update slipstream tooltip [\#3117](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3117) ([Wires77](https://github.com/Wires77))
+
+**Merged pull requests:**
+
+- Release 2.7.1 [\#3130](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3130) ([github-actions[bot]](https://github.com/apps/github-actions))
+- Fix MonsterVarieties spec [\#3129](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3129) ([PJacek](https://github.com/PJacek))
+- Add space between similar stat groups. [\#3121](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3121) ([Nightblade](https://github.com/Nightblade))
+- Add Leadership's Price Unique Amulet [\#3120](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3120) ([Torchery](https://github.com/Torchery))
+
+## [v2.7.0](https://github.com/PathOfBuildingCommunity/PathOfBuilding/tree/v2.7.0) (2021/08/09)
+
+[Full Changelog](https://github.com/PathOfBuildingCommunity/PathOfBuilding/compare/v2.6.0...v2.7.0)
+
+**Implemented enhancements:**
+
+- Add support for new base type implicits [\#3113](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3113) ([LocalIdentity](https://github.com/LocalIdentity))
+
+**Fixed bugs:**
+
+- Fix Combat Jewel parsing [\#3112](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3112) ([LocalIdentity](https://github.com/LocalIdentity))
+- Fix error when Main Skill is not-minion but Minion is in FullDPS [\#3053](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3053) ([Nostrademous](https://github.com/Nostrademous))
+- Update Ailment threshold values [\#3049](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3049) ([LocalIdentity](https://github.com/LocalIdentity))
+- Update Oskarm's chaos resist [\#3047](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3047) ([Ydoum](https://github.com/Ydoum))
+- Sanitize default gem properties when loading a build [\#3037](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3037) ([PJacek](https://github.com/PJacek))
+
+**Merged pull requests:**
+
+- Release 2.7.0 [\#3114](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3114) ([Wires77](https://github.com/Wires77))
+- Release 2.7.0 [\#3110](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3110) ([github-actions[bot]](https://github.com/apps/github-actions))
+- Fix Lifetap not changing mana cost [\#3106](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3106) ([Wires77](https://github.com/Wires77))
+- Stop keystones from being edited with timeless jewels [\#3098](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3098) ([Wires77](https://github.com/Wires77))
+- A cold damage over time stat to modparser [\#3094](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3094) ([Lexy](https://github.com/learn2draw))
+- Fix Bomb Specialist AoE mod [\#3087](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3087) ([Nostrademous](https://github.com/Nostrademous))
+- Add radius to Explosive Concoction [\#3086](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3086) ([Wires77](https://github.com/Wires77))
+- Add new base types to rare template, modify existing rare templates [\#3080](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3080) ([a3person](https://github.com/a3person))
+- Add sorting by Ward attribute [\#3076](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3076) ([TiagoGoddard](https://github.com/TiagoGoddard))
+- Added full support for Eye To Eye cluster Notable [\#3064](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3064) ([Nostrademous](https://github.com/Nostrademous))
+- Modify Elusive effect [\#3061](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3061) ([Lexy](https://github.com/learn2draw))
+- Don't set max inspiration charges for minions [\#3060](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3060) ([Lexy](https://github.com/learn2draw))
+- Add Usurper's Penance [\#3055](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3055) ([pundm](https://github.com/pundm))
+- Fix Explosive Concoction not working with off hand weapons [\#3039](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3039) ([Lexy](https://github.com/learn2draw))
+- Describe installer creation process [\#3031](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3031) ([ppoelzl](https://github.com/ppoelzl))
+- Release 2.6.0 [\#3030](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3030) ([Wires77](https://github.com/Wires77))
+- Release 2.6.0 [\#3029](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3029) ([github-actions[bot]](https://github.com/apps/github-actions))
+- Fix Manabond not  being affected by reduced mana cost nodes [\#3028](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3028) ([Wires77](https://github.com/Wires77))
+- Fix Doryani's Prototype not applying to minions [\#3026](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/3026) ([Wires77](https://github.com/Wires77))
+
+
+
+
 ## [2.8.0](https://github.com/PathOfBuildingCommunity/PathOfBuilding/tree/2.8.0) (2021/08/09)
 
 [Full Changelog](https://github.com/PathOfBuildingCommunity/PathOfBuilding/compare/v2.7.0...2.8.0)
