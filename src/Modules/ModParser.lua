@@ -2443,6 +2443,7 @@ local specialModList = {
 		mod("ShrineBuff", "LIST", { mod = mod("AreaOfEffect", "INC", 20) }) 
 	},
 	["(%d+)%% increased effect of shrine buffs on you"] = function(num) return { mod("ShrineBuffEffect", "INC", num)} end,
+	["elusive also grants %+(%d+)%% to critical strike multiplier for skills supported by nightblade"] = function(num) return { mod("NightbladeElusiveCritMultiplier", "BASE", num) } end,
 	-- Traps, Mines and Totems
 	["traps and mines deal (%d+)%-(%d+) additional physical damage"] = function(_, min, max) return { mod("PhysicalMin", "BASE", tonumber(min), nil, 0, bor(KeywordFlag.Trap, KeywordFlag.Mine)), mod("PhysicalMax", "BASE", tonumber(max), nil, 0, bor(KeywordFlag.Trap, KeywordFlag.Mine)) } end,
 	["traps and mines deal (%d+) to (%d+) additional physical damage"] = function(_, min, max) return { mod("PhysicalMin", "BASE", tonumber(min), nil, 0, bor(KeywordFlag.Trap, KeywordFlag.Mine)), mod("PhysicalMax", "BASE", tonumber(max), nil, 0, bor(KeywordFlag.Trap, KeywordFlag.Mine)) } end,
